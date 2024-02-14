@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.shortcuts.ShortcutLauncherActivity">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/static_shortcut"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/listPreferredItemHeight"
+        android:background="?attr/selectableItemBackground"
+        android:gravity="center"
+        android:text="Static"
+        android:textSize="18sp" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/dynamic_shortcut"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/listPreferredItemHeight"
+        android:background="?attr/selectableItemBackground"
+        android:gravity="center"
+        android:text="Dynamic"
+        android:textSize="18sp" />
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/pinned_shortcut"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/listPreferredItemHeight"
+        android:background="?attr/selectableItemBackground"
+        android:gravity="center"
+        android:text="Pinned"
+        android:textSize="18sp" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>

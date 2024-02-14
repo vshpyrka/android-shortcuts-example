@@ -1,0 +1,7 @@
+<resources>
+
+    <string name="shortcut_static_compose_short">Compose</string>
+    <string name="shortcut_static_compose_long">Compose New Message</string>
+    <string name="shortcut_static_compose_disabled">Compose Disabled</string>
+
+</resources>
