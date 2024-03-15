@@ -9,8 +9,8 @@
         android:angle="45"
         android:centerX="0"
         android:centerY="0"
-        android:endColor="@color/material_dynamic_tertiary40"
-        android:startColor="@color/material_dynamic_tertiary70"
+        android:endColor="#01f1fa"
+        android:startColor="#0189ff"
         android:type="linear" />
 
     <stroke
